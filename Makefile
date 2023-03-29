@@ -12,5 +12,5 @@ clean:
 # Set file permissions
 .PHONY: linux clean
 chmod:
-	chmod 777 $(LINUX_SCRIPT) $(CLEAN_SCRIPT)
+	chmod 700 $(LINUX_SCRIPT) $(CLEAN_SCRIPT)
 
